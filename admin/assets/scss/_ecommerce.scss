@@ -1,0 +1,49 @@
+/* ==============
+  Ecommerce
+===================*/
+
+.product-list-box {
+  position: relative;
+  border: 1px solid rgba($muted,0.12);
+  padding: 10px;
+  margin-bottom: 20px;
+
+  .product-tag {
+    background: $danger;
+    border-radius: 0;
+    color: $white;
+    font-size: 13px;
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding: 2px 13px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 28px;
+    z-index: 4;
+    font-family: $font-secondary;
+  }
+
+  img {
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .detail {
+
+    h4{
+      a{
+        white-space: nowrap;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
+.product-list-img {
+  height: 48px;
+  width: 48px;
+}
+

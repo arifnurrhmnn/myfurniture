@@ -1,0 +1,43 @@
+/* ==============
+  Coming Soon
+===================*/
+
+.count-down {
+  padding: 0;
+  text-align:center;
+  height: auto;
+
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 28px;
+    display: inline-block;
+    min-height: 250px;
+
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    input {
+      font-size: 48px;
+      width: 215px !important;
+      height: 40px !important;
+      font-family: $font-secondary;
+      margin: 70px 0 0 -210px !important;
+      font-weight: normal !important;
+    }
+  }
+
+}
+
+#days-title, #hours-title, #mins-title, #secs-title {
+  display: block;
+  color: $primary;
+  text-transform: uppercase;
+  margin-top: -90px;
+  font-size: 18px;
+  position: relative;
+  z-index: 9;
+}

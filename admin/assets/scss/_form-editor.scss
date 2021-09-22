@@ -1,0 +1,14 @@
+/* ==============
+  Form Editor
+===================*/
+
+.mce-panel {
+  border-color: darken($light,5%);
+  background-color: $light;
+}
+.mce-menu-item:hover, .mce-menu-item.mce-selected, .mce-menu-item:focus {
+  background-color: $primary;
+}
+.mce-menu {
+  background-color: $white;
+}

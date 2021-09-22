@@ -1,0 +1,74 @@
+/* ==============
+  Card
+===================*/
+.card {
+  border: 1px solid rgba($muted,0.12);
+}
+.card-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+.card-success {
+  background-color: $success;
+  border-color: $success;
+}
+.card-info {
+  background-color: $info;
+  border-color: $info;
+}
+.card-warning {
+  background-color: $warning;
+  border-color: $warning;
+}
+.card-danger {
+  background-color: $danger;
+  border-color: $danger;
+}
+.card-dark {
+  background-color: $dark;
+  border-color: $dark;
+}
+.card-pink {
+  background-color: $pink;
+  border-color: $pink;
+}
+.card-purple {
+  background-color: $purple;
+  border-color: $purple;
+}
+.card-indigo {
+  background-color: $indigo;
+  border-color: $indigo;
+}
+.card-teal {
+  background-color: $teal;
+  border-color: $teal;
+}
+.card-lime {
+  background-color: $lime;
+  border-color: $lime;
+}
+.card-orange {
+  background-color: $orange;
+  border-color: $orange;
+}
+.card-brown {
+  background-color: $brown;
+  border-color: $brown;
+}
+.card-blue-grey {
+  background-color: $blue-grey;
+  border-color: $blue-grey;
+}
+
+
+@media (min-width: 576px){
+  .card-deck {
+      margin-right: -10px;
+      margin-left: -10px;
+      .card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
+}

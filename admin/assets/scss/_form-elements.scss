@@ -1,0 +1,67 @@
+/* ==============
+  Form-elements
+===================*/
+
+label {
+  font-weight: 500;
+  font-family: $font-secondary;
+  font-size: 14px !important;
+}
+
+input[type="color"] {
+  min-height: 38px;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+  color: lighten($lightdark7,20%) !important;
+}
+
+input:-moz-placeholder,textarea:-moz-placeholder {
+  color: lighten($lightdark7,20%) !important;
+}
+input::-moz-placeholder,textarea::-moz-placeholder {
+  color: lighten($lightdark7,20%) !important;
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+  color: lighten($lightdark7,20%) !important;
+}
+
+
+.form-control {
+  font-family: $font-primary;
+  box-shadow: none !important;
+
+  &:focus {
+    border-color: darken($light,30%);
+  }
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  background-color: $primary;
+}
+
+.custom-control-input:focus~.custom-control-indicator {
+  -webkit-box-shadow: 0 0 0 1px $white, 0 0 0 3px $primary;
+  box-shadow: 0 0 0 1px $white, 0 0 0 3px $primary;
+}
+
+.has-success {
+  .form-control {
+    border-color: $primary;
+    box-shadow: none;
+  }
+}
+
+.has-warning {
+  .form-control {
+    border-color: $warning;
+    box-shadow: none;
+  }
+}
+
+.has-error {
+  .form-control {
+    border-color: $danger;
+    box-shadow: none;
+  }
+}

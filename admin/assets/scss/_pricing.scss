@@ -1,0 +1,33 @@
+/* ==============
+  Pricing
+===================*/
+.plan-card {
+  .plan-icon{
+    display: inline-block;
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    color: $white;
+    line-height: 76px;
+    overflow: hidden;
+    border: 12px solid $white;
+    border-radius: 50%;
+    background: $primary;
+    box-shadow: 0 0 3px $lightdark-alt;
+    transition: all .3s;
+  }
+
+  .plan-price {
+    span{
+      font-size: 15px;
+      vertical-align: middle;
+    }
+  }
+  .plan-features  {
+    p{
+      line-height: 32px;
+    }
+  }
+}
+
+

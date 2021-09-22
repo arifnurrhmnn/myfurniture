@@ -1,0 +1,344 @@
+/* ==============
+  Buttons
+===================*/
+
+.btn {
+  border-radius: 3px;
+  font-family: $font-primary;
+}
+
+
+.btn-primary, .btn-success, .btn-info, .btn-warning,
+.btn-danger, .btn-dark,.btn-pink,.btn-purple,.btn-indigo,.btn-teal,
+.btn-lime,.btn-orange,.btn-brown,.btn-blue-grey{
+  color: $white;
+}
+
+.btn-primary{
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
+.btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover,
+.open > .dropdown-toggle.btn-primary,.btn-outline-primary.active, .btn-outline-primary:active,
+.show>.btn-outline-primary.dropdown-toggle,.btn-outline-primary:hover,.btn-primary.active,
+.btn-primary:active, .show>.btn-primary.dropdown-toggle  {
+  background-color: darken($primary, 5%) !important;
+  border: 1px solid darken($primary, 5%) !important;
+}
+.btn-primary.focus, .btn-primary:focus,.btn-outline-primary.focus, .btn-outline-primary:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($primary,.3);
+  box-shadow: 0 0 0 2px rgba($primary,.3);
+}
+
+.btn-success {
+  background-color: $success !important;
+  border: 1px solid $success !important;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active,
+.btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover,
+.open > .dropdown-toggle.btn-success,.btn-outline-success.active, .btn-outline-success:active,
+.show>.btn-outline-success.dropdown-toggle,.btn-outline-success:hover,.btn-success.active,
+.btn-success:active, .show>.btn-success.dropdown-toggle {
+  background-color: darken($success, 5%);
+  border: 1px solid darken($success, 5%);
+}
+
+.btn-info {
+  background-color: $info;
+  border: 1px solid $info;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.focus,
+.btn-info:active, .btn-info:focus, .btn-info:hover, .open > .dropdown-toggle.btn-info,
+.btn-outline-info.active, .btn-outline-info:active,
+.show>.btn-outline-info.dropdown-toggle,.btn-outline-info:hover,.btn-info.active, .btn-info:active,
+.show>.btn-info.dropdown-toggle{
+  background-color: darken($info, 5%);
+  border: 1px solid darken($info, 5%);
+}
+
+.btn-warning {
+  background-color: $warning;
+  border: 1px solid $warning;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active,
+.btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover,
+.open > .dropdown-toggle.btn-warning,.btn-outline-warning.active, .btn-outline-warning:active,
+.show>.btn-outline-warning.dropdown-toggle,.btn-outline-warning:hover,.btn-warning.active,
+.btn-warning:active, .show>.btn-warning.dropdown-toggle {
+  background-color: darken($warning, 5%);
+  border: 1px solid darken($warning, 5%);
+}
+
+.btn-danger {
+  background-color: $danger !important;
+  border: 1px solid $danger !important;
+}
+.btn-danger:active, .btn-danger:focus, .btn-danger:hover, .btn-danger.active,
+.btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover,
+.open > .dropdown-toggle.btn-danger,.btn-outline-danger.active, .btn-outline-danger:active,
+.show>.btn-outline-danger.dropdown-toggle,.btn-outline-danger:hover,.btn-danger.active,
+.btn-danger:active, .show>.btn-danger.dropdown-toggle {
+  background-color: darken($danger, 5%);
+  border: 1px solid darken($danger, 5%);
+}
+
+.btn-danger.focus, .btn-danger:focus,.btn-outline-danger.focus, .btn-outline-danger:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($danger,.3);
+  box-shadow: 0 0 0 2px rgba($danger,.3);
+}
+
+.btn-dark {
+  background-color: $dark;
+  border: 1px solid $dark;
+  color: $white;
+}
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active, .btn-dark.focus,
+.btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open > .dropdown-toggle.btn-dark,
+.btn-outline-dark.active, .btn-outline-dark:active,
+.show>.btn-outline-dark.dropdown-toggle,.btn-outline-dark:hover{
+  background-color: darken($dark, 5%);
+  border: 1px solid darken($dark, 5%);
+  color: $white;
+}
+.btn-dark.focus, .btn-dark:focus,.btn-outline-dark.focus, .btn-outline-dark:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($dark,.3);
+  box-shadow: 0 0 0 2px rgba($dark,.3);
+}
+
+.btn-link {
+  color: $dark;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.btn-pink {
+  background-color: $pink;
+  border: 1px solid $pink;
+  color: $white;
+}
+.btn-pink:hover, .btn-pink:focus, .btn-pink:active, .btn-pink.active, .btn-pink.focus,
+.btn-pink:active, .btn-pink:focus, .btn-pink:hover, .open > .dropdown-toggle.btn-pink,
+.btn-outline-pink.active, .btn-outline-pink:active,
+.show>.btn-outline-pink.dropdown-toggle,.btn-outline-pink:hover{
+  background-color: darken($pink, 5%);
+  border: 1px solid darken($pink, 5%);
+  color: $white;
+}
+.btn-pink.focus, .btn-pink:focus,.btn-outline-pink.focus, .btn-outline-pink:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($pink,.3);
+  box-shadow: 0 0 0 2px rgba($pink,.3);
+}
+
+.btn-purple {
+  background-color: $purple;
+  border: 1px solid $purple;
+  color: $white;
+}
+.btn-purple:hover, .btn-purple:focus, .btn-purple:active, .btn-purple.active, .btn-purple.focus,
+.btn-purple:active, .btn-purple:focus, .btn-purple:hover, .open > .dropdown-toggle.btn-purple,
+.btn-outline-purple.active, .btn-outline-purple:active,
+.show>.btn-outline-purple.dropdown-toggle,.btn-outline-purple:hover{
+  background-color: darken($purple, 5%);
+  border: 1px solid darken($purple, 5%);
+  color: $white;
+}
+.btn-purple.focus, .btn-purple:focus,.btn-outline-purple.focus, .btn-outline-purple:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($purple,.3);
+  box-shadow: 0 0 0 2px rgba($purple,.3);
+}
+
+.btn-indigo {
+  background-color: $indigo;
+  border: 1px solid $indigo;
+  color: $white;
+}
+.btn-indigo:hover, .btn-indigo:focus, .btn-indigo:active, .btn-indigo.active, .btn-indigo.focus,
+.btn-indigo:active, .btn-indigo:focus, .btn-indigo:hover, .open > .dropdown-toggle.btn-indigo,
+.btn-outline-indigo.active, .btn-outline-indigo:active,
+.show>.btn-outline-indigo.dropdown-toggle,.btn-outline-indigo:hover{
+  background-color: darken($indigo, 5%);
+  border: 1px solid darken($indigo, 5%);
+  color: $white;
+}
+.btn-indigo.focus, .btn-indigo:focus,.btn-outline-indigo.focus, .btn-outline-indigo:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($indigo,.3);
+  box-shadow: 0 0 0 2px rgba($indigo,.3);
+}
+
+.btn-teal {
+  background-color: $teal;
+  border: 1px solid $teal;
+  color: $white;
+}
+.btn-teal:hover, .btn-teal:focus, .btn-teal:active, .btn-teal.active, .btn-teal.focus,
+.btn-teal:active, .btn-teal:focus, .btn-teal:hover, .open > .dropdown-toggle.btn-teal,
+.btn-outline-teal.active, .btn-outline-teal:active,
+.show>.btn-outline-teal.dropdown-toggle,.btn-outline-teal:hover{
+  background-color: darken($teal, 5%);
+  border: 1px solid darken($teal, 5%);
+  color: $white;
+}
+.btn-teal.focus, .btn-teal:focus,.btn-outline-teal.focus, .btn-outline-teal:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($teal,.3);
+  box-shadow: 0 0 0 2px rgba($teal,.3);
+}
+
+.btn-lime {
+  background-color: $lime;
+  border: 1px solid $lime;
+  color: $white;
+}
+.btn-lime:hover, .btn-lime:focus, .btn-lime:active, .btn-lime.active, .btn-lime.focus,
+.btn-lime:active, .btn-lime:focus, .btn-lime:hover, .open > .dropdown-toggle.btn-lime,
+.btn-outline-lime.active, .btn-outline-lime:active,
+.show>.btn-outline-lime.dropdown-toggle,.btn-outline-lime:hover{
+  background-color: darken($lime, 5%);
+  border: 1px solid darken($lime, 5%);
+  color: $white;
+}
+.btn-lime.focus, .btn-lime:focus,.btn-outline-lime.focus, .btn-outline-lime:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($lime,.3);
+  box-shadow: 0 0 0 2px rgba($lime,.3);
+}
+
+.btn-orange {
+  background-color: $orange;
+  border: 1px solid $orange;
+  color: $white;
+}
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .btn-orange.focus,
+.btn-orange:active, .btn-orange:focus, .btn-orange:hover, .open > .dropdown-toggle.btn-orange,
+.btn-outline-orange.active, .btn-outline-orange:active,
+.show>.btn-outline-orange.dropdown-toggle,.btn-outline-orange:hover{
+  background-color: darken($orange, 5%);
+  border: 1px solid darken($orange, 5%);
+  color: $white;
+}
+.btn-orange.focus, .btn-orange:focus,.btn-outline-orange.focus, .btn-outline-orange:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($orange,.3);
+  box-shadow: 0 0 0 2px rgba($orange,.3);
+}
+
+.btn-brown {
+  background-color: $brown;
+  border: 1px solid $brown;
+  color: $white;
+}
+.btn-brown:hover, .btn-brown:focus, .btn-brown:active, .btn-brown.active, .btn-brown.focus,
+.btn-brown:active, .btn-brown:focus, .btn-brown:hover, .open > .dropdown-toggle.btn-brown,
+.btn-outline-brown.active, .btn-outline-brown:active,
+.show>.btn-outline-brown.dropdown-toggle,.btn-outline-brown:hover{
+  background-color: darken($brown, 5%);
+  border: 1px solid darken($brown, 5%);
+  color: $white;
+}
+.btn-brown.focus, .btn-brown:focus,.btn-outline-brown.focus, .btn-outline-brown:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($brown,.3);
+  box-shadow: 0 0 0 2px rgba($brown,.3);
+}
+
+.btn-blue-grey {
+  background-color: $blue-grey;
+  border: 1px solid $blue-grey;
+  color: $white;
+}
+.btn-blue-grey:hover, .btn-blue-grey:focus, .btn-blue-grey:active, .btn-blue-grey.active, .btn-blue-grey.focus,
+.btn-blue-grey:active, .btn-blue-grey:focus, .btn-blue-grey:hover, .open > .dropdown-toggle.btn-blue-grey,
+.btn-outline-blue-grey.active, .btn-outline-blue-grey:active,
+.show>.btn-outline-blue-grey.dropdown-toggle,.btn-outline-blue-grey:hover{
+  background-color: darken($blue-grey, 5%);
+  border: 1px solid darken($blue-grey, 5%);
+  color: $white;
+}
+.btn-blue-grey.focus, .btn-blue-grey:focus,.btn-outline-blue-grey.focus, .btn-outline-blue-grey:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($blue-grey,.3);
+  box-shadow: 0 0 0 2px rgba($blue-grey,.3);
+}
+
+
+/* button Outline */
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+}
+.btn-outline-success {
+  color: $success;
+  border-color: $success;
+}
+.btn-outline-info {
+  color: $info;
+  border-color: $info;
+}
+.btn-outline-warning {
+  color: $warning;
+  border-color: $warning;
+}
+.btn-outline-danger {
+  color: $danger;
+  border-color: $danger;
+}
+.btn-outline-dark {
+  color: $dark;
+  background-image: none;
+  background-color: transparent;
+  border-color: $dark;
+}
+
+.btn-outline-pink {
+  color: $pink;
+  background-image: none;
+  background-color: transparent;
+  border-color: $pink;
+}
+
+.btn-outline-purple {
+  color: $purple;
+  background-image: none;
+  background-color: transparent;
+  border-color: $purple;
+}
+
+.btn-outline-indigo {
+  color: $indigo;
+  background-image: none;
+  background-color: transparent;
+  border-color: $indigo;
+}
+
+.btn-outline-teal {
+  color: $teal;
+  background-image: none;
+  background-color: transparent;
+  border-color: $teal;
+}
+
+.btn-outline-lime {
+  color: $lime;
+  background-image: none;
+  background-color: transparent;
+  border-color: $lime;
+}
+
+.btn-outline-orange {
+  color: $orange;
+  background-image: none;
+  background-color: transparent;
+  border-color: $orange;
+}
+
+.btn-outline-brown {
+  color: $brown;
+  background-image: none;
+  background-color: transparent;
+  border-color: $brown;
+}
+
+.btn-outline-blue-grey {
+  color: $blue-grey;
+  background-image: none;
+  background-color: transparent;
+  border-color: $blue-grey;
+}

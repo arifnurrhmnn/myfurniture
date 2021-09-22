@@ -1,0 +1,54 @@
+/* ==============
+ Demo Only css
+===================*/
+
+.button-items {
+  margin-bottom: -10px;
+
+  .btn {
+    margin-bottom: 10px;
+    margin-right: 8px;
+  }
+}
+
+.bs-example-modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+
+.icon-demo-content {
+  color: $muted;
+
+  i{
+    font-size: 22px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 30px;
+    display: inline-block;
+  }
+
+  .col-sm-6 {
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    &:hover {
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.color-box {
+  color: $white;
+  padding: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 3px;
+}
